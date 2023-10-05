@@ -1,0 +1,12 @@
+@import 'scss/functions';
+
+@import 'scss/variables';
+
+$new-theme-colors: (
+  'primary': #7550fe,
+  'success': #1acb98,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+@import 'scss/bootstrap.scss';
