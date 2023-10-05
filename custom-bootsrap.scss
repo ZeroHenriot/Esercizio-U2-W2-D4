@@ -9,4 +9,8 @@ $new-theme-colors: (
 
 $theme-colors: map-merge($theme-colors, $new-theme-colors);
 
+$container-max-widths: (
+  lg: 1450px,
+);
+
 @import 'scss/bootstrap.scss';
